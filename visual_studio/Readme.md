@@ -1,9 +1,6 @@
 How to build the DLL in Visual Studio 2010 Express
 =======
 
-Note to self: copy-paste from source control into `C:\Users\robert\Documents\Visual Studio
-2010\Projects`, work from there and copy back to put into source control.
-
 1. New project -> Win32 Console Application
 
 2. Untick `Create directory for solution` (otherwise you get too much hierarchy).
@@ -45,6 +42,9 @@ gives a good overview of how to build a DLL (albeit in MinGW).
 This SO answer
 [here](http://stackoverflow.com/questions/3922660/which-visual-c-file-types-should-be-committed-to-version-control)
 explains which file types should be put under source control.
+
+Best way to manage nix<->win is to copy-paste from source control into `C:\Users\robert\Documents\Visual Studio
+2010\Projects`, work from there and copy back to put into source control.
 
 BDP & BDH
 =========
