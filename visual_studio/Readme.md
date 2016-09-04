@@ -1,7 +1,7 @@
-How to build the bridge in Visual Studio 2010 Express
+How to build the DLL in Visual Studio 2010 Express
 =======
 
-Copy-paste from source control into `C:\Users\robert\Documents\Visual Studio
+Note to self: copy-paste from source control into `C:\Users\robert\Documents\Visual Studio
 2010\Projects`, work from there and copy back to put into source control.
 
 1. New project -> Win32 Console Application
