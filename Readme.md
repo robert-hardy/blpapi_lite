@@ -1,16 +1,9 @@
-# Bridge API
+# BLPAPI Lite
 
-Try
+Based on the open-source code examples that come with an install of the
+Bloomberg terminal, this repository uses Python's `ctypes` library to create
+Python functions `bdp` and `bdh`.
 
-    curl -XGET -G -d type="BDH" http://localhost:8080/ -H 'Content-type: application/json'
-
-to see the reply for a BDH. At the moment it is like this:
-
-    {"results": [
-      {"contract_name": "stir_eur", "field": "mid_price", "value": "99.05", "month": 6, "source": "mock", "year": 2017, "date": "2016-01-01"},
-      {"contract_name": "stir_eur", "field": "mid_price", "value": "99.1", "month": 6, "source": "mock", "year": 2017, "date": "2016-01-02"},
-      {"contract_name": "stir_eur", "field": "mid_price", "value": "99.05", "month": 6, "source": "mock", "year": 2017, "date": "2016-01-03"}
-    ]}
 
 ## License
 
